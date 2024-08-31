@@ -2,18 +2,6 @@
 
 This project implements a speech-based Connect 4 game using Hidden Markov Models (HMM) for speech recognition. The game allows a player to play against an AI where the player's moves are predicted based on their speech input.
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Functionality](#functionality)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
 ## Overview
 
 This repository contains the source code for a Connect 4 game enhanced with speech recognition capabilities. The speech recognition is achieved using Hidden Markov Models (HMM), which are trained to recognize player inputs.
@@ -29,41 +17,6 @@ This repository contains the source code for a Connect 4 game enhanced with spee
 - **C++ Compiler:** Ensure you have a C++ compiler (like `g++`) installed.
 - **Libraries:** The project requires standard C++ libraries (`cmath`, `vector`, `string`, `iostream`, `fstream`, `iomanip`, `ctime`).
 - **Data Files:** Speech recognition dataset (`234101048_universe.csv`).
-
-## Setup
-
-1. **Clone the repository:**
-
-    ```sh
-    git clone https://github.com/your_username/speechbasedConnect4.git
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```sh
-    cd speechbasedConnect4
-    ```
-
-3. **Compile the code:**
-
-    ```sh
-    g++ -o speechbasedConnect4 speechbasedConnect4.cpp
-    ```
-
-## Usage
-
-1. **Run the executable:**
-
-    ```sh
-    ./speechbasedConnect4
-    ```
-
-2. **Follow the on-screen instructions to play the game.**
-
-## Project Structure
-
-- `speechbasedConnect4.cpp`: Main implementation file for the Connect 4 game and HMM-based speech recognition.
-- `234101048_universe.csv`: Dataset for training the HMM (ensure this file is in the same directory as the executable).
 
 ## Functionality
 
@@ -94,16 +47,3 @@ This repository contains the source code for a Connect 4 game enhanced with spee
 - Initializes the game and HMM parameters.
 - Enters the game loop where Player 1's moves are predicted using the HMM and Player 2's moves are decided by the AI.
 - Ends the game when a player wins or the board is full.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Special thanks to the creators of the datasets and the libraries used in this project.
-- Inspiration from classic board games and advancements in speech recognition technology.
